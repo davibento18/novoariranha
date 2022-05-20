@@ -1,2 +1,2 @@
 # siteariranha
- https://davibento18.github.io/siteariranha/
+https://davibento18.github.io/novoariranha/

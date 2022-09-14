@@ -7,6 +7,26 @@ body{
     background-color: #11d8b7;
 }
 
+header{
+  padding: 1.5%;  
+  font-family: 'Patrick Hand', cursive;
+  background-color:#11d8b7;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fixo{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+}
+
+
 .img_topo{
     width: 100%;
 
@@ -58,7 +78,7 @@ parag_letras > p{
   }
   
   .pinta_botao:hover{
-    background-color: rgba(115, 119, 119, 0.349);
+    background-color: rgba(32, 58, 58, 0.349);
   }
   
   .pinta_botao a:link, .pinta_botao :visited{
@@ -73,6 +93,33 @@ parag_letras > p{
     font-size: 1.2em;
     text-align: center;
   
+  }
+  .itens_menu{
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .itens_menu a{
+    font-size: 1.2em;
+  }
+  .itens_menu a:link, .itens_menu a:visited{ 
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+  }  
+  /* mouse over link */
+.itens_menu a:hover {
+    color: rgb(238, 238, 238);
+    padding: 0.8%;    
+    background-color: rgba(128, 128, 128, 0.3); 
+    text-decoration: none;
+    border-radius: 15%;
+
+  }
+  
+  /* selected link */
+.itens_menu a:active {
+    color: rgb(29, 143, 105);
+    text-decoration: none;
   }
   
   section{
@@ -97,4 +144,5 @@ parag_letras > p{
     
     margin-right: 2%;
   }
-  
+
+ 

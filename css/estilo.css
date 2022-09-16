@@ -63,7 +63,11 @@ p{
 parag_letras > p{
 
     font-size: 1em;
+    text-align: justify;
+    text-indent: 40px;
     line-height: 1.5;
+    margin-top: 0.2%;
+    margin-bottom: 00.2%;
   }
   
   .pinta_botao{
@@ -97,10 +101,13 @@ parag_letras > p{
   .itens_menu{
     line-height: 1.5;
     text-align: center;
+    margin: auto;
   }
   
   .itens_menu a{
     font-size: 1.2em;
+    text-align: center;
+    margin: auto;
   }
   .itens_menu a:link, .itens_menu a:visited{ 
     color: rgb(253, 253, 253);
@@ -145,4 +152,35 @@ parag_letras > p{
     margin-right: 2%;
   }
 
- 
+ /*Faz uma alteração quando a tela fica menor que 600px */
+@media screen and (max-width:600px) {
+
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+   
+  }  
+
+  .banner{
+    margin-top: 40%;
+  }
+
+  
+  .descer{
+    margin-top: 50%;
+  }
+}
+/*Faz uma alteração quando a tela fica maior que 601px */
+@media screen and (min-width:601px) {
+
+
+  .banner{
+    margin-top: 8%;
+  }
+
+  .descer{
+    margin-top: 10%;
+  }
+
+    
+}

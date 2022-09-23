@@ -8,6 +8,7 @@ body{
 }
 
 header{
+  
   padding: 1.5%;  
   font-family: 'Patrick Hand', cursive;
   background-color:#11d8b7;
@@ -172,7 +173,7 @@ parag_letras > p{
 }
 /*Faz uma alteração quando a tela fica maior que 601px */
 @media screen and (min-width:601px) {
-
+  
 
   .banner{
     margin-top: 8%;
